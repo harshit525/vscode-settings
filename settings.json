@@ -15,7 +15,7 @@
             "self_closing_tag": true
         }
     },
-   "editor.tabSize": 4,
+   "editor.tabSize": 2,
     "editor.insertSpaces": true,
     "editor.detectIndentation": false,
    // "terminal.integrated.fontFamily": "MesloLGS NF",
@@ -27,7 +27,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
     "prettier.bracketSpacing": true,
-    "prettier.tabWidth": 4,
+    "prettier.tabWidth": 2,
     "prettier.printWidth": 160,
     "editor.fontFamily": "Victor Mono, Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": true,
