@@ -1,0 +1,256 @@
+{
+    "yaml.schemas": {
+        "file:///Users/harshit/.vscode/extensions/atlassian.atlascode-2.8.6/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "ruby.intellisense": "rubyLocate",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "plaintext": "pug"
+    },
+    "emmet.syntaxProfiles": {
+        "html": {
+            "attr_quotes": "single"
+        },
+        "jsx": {
+            "self_closing_tag": true
+        }
+    },
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.external.osxExec": "Iterm.app",
+    "terminal.explorerKind": "external",
+    "terminal.integrated.profile.osx": "/bin/zsh",
+    "git.autofetch": true,
+    "editor.semanticHighlighting.enabled": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "prettier.bracketSpacing": true,
+    "prettier.tabWidth": 4,
+    "editor.fontFamily": "Victor Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "500",
+    "editor.fontSize": 12,
+    "editor.lineHeight": 21,
+    "synthwave84.brightness": 0.45,
+    "workbench.colorTheme": "One Monokai",
+    "files.autoSave": "onWindowChange",
+    "files.autoSaveDelay": 1000,
+    "files.associations": {
+        "*.html": "html",
+        "**/templates/**/*.html": "django-html"
+    },
+    "editor.tokenColorCustomizations": {
+        "[One Monokai]": {
+            "textMateRules": [
+                {
+                    "scope": "string",
+                    "settings": {
+                        "foreground": "#d9e6fc",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "string.template",
+                    "settings": {
+                        "foreground": "#d9e6fc",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "emphasis",
+                    "settings": {
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "strong",
+                    "settings": {
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "entity.other.attribute-name",
+                    "settings": {
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "markup.underline",
+                    "settings": {
+                        "fontStyle": "underline"
+                    }
+                },
+                {
+                    "scope": "markup.bold",
+                    "settings": {
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "markup.heading",
+                    "settings": {
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "markup.italic",
+                    "settings": {
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "storage.type",
+                    "settings": {
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "storage.modifier",
+                    "settings": {
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "name": "String interpolation",
+                    "scope": [
+                        "punctuation.definition.template-expression.begin",
+                        "punctuation.definition.template-expression.end",
+                        "punctuation.section.embedded"
+                    ],
+                    "settings": {
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "keyword.control",
+                    "settings": {
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": [
+                        "keyword.operator.new",
+                        "keyword.operator.expression",
+                        "keyword.operator.cast",
+                        "keyword.operator.sizeof",
+                        "keyword.operator.logical.python"
+                    ],
+                    "settings": {
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "name": "this.self",
+                    "scope": "variable.language",
+                    "settings": {
+                        "fontStyle": "italic",
+                        "foreground": "#ff5874"
+                    }
+                },
+                {
+                    "name": "@Decorator",
+                    "scope": ["meta.decorator punctuation.decorator"],
+                    "settings": {
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": ["punctuation.definition.comment", "comment"],
+                    "settings": {
+                        // "foreground": "#ff5874",
+                        "fontStyle": "italic"
+                    }
+                }
+            ]
+        }
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.color": "#26a69a",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.languageServer": "Pylance",
+    "search.exclude": {
+        "**/.idea": true
+    },
+    "files.exclude": {
+        "**/.history": true,
+        "**/.idea": true,
+        "**/.vscode": true
+    },
+    "eslint.alwaysShowStatus": true,
+    "eslint.lintTask.enable": true,
+    "eslint.format.enable": true,
+    "eslint.run": "onSave",
+    "jupyter.sendSelectionToInteractiveWindow": true,
+    "auto-close-tag.fullMode": true,
+    "auto-close-tag.activationOnLanguage": [
+        "xml",
+        "php",
+        "blade",
+        "ejs",
+        "jinja",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "plaintext",
+        "markdown",
+        "vue",
+        "liquid",
+        "erb",
+        "lang-cfml",
+        "cfml",
+        "HTML (EEx)",
+        "HTML (Eex)",
+        "plist"
+    ],
+    "todohighlight.isEnable": true,
+    "todohighlight.isCaseSensitive": true,
+    "todohighlight.keywordsPattern": "@(?!require|import)[\\w-_.]*",
+    "todohighlight.defaultStyle": {
+        "color": "#fbeba4",
+        "backgroundColor": "0",
+        "fontWeight": "400",
+        "fontStyle": "normal"
+    },
+    "todohighlight.include": ["**/*.js", "**/*.ts", "**/*.vue"],
+    "todohighlight.exclude": [
+        "**/node_modules/**",
+        "**/bower_components/**",
+        "**/dist/**",
+        "**/build/**",
+        "**/.vscode/**",
+        "**/.github/**",
+        "**/_output/**",
+        "**/*.min.*",
+        "**/*.map",
+        "**/.next/**"
+    ],
+    "todohighlight.maxFilesForSearch": 5120,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "editor.quickSuggestions": true,
+    "screencastMode.onlyKeyboardShortcuts": true,
+    "workbench.colorCustomizations": {
+        "tab.activeForeground": "#fff",
+        "gitDecoration.modifiedResourceForeground": "#89bdee",
+        "gitDecoration.addedResourceForeground": "#75eeab",
+        "gitDecoration.deletedResourceForeground": "#be463e",
+        "list.warningForeground": "#dda682"
+    },
+    "bracketPairColorizer.consecutivePairColo   rs": [
+        "()",
+        "[]",
+        "{}",
+        ["<", "</"],
+        ["<", "/>"],
+        ["lightgreen", "#3cc781", "LightSkyBlue"],
+        "Red"
+    ],
+    "[ruby]": {
+        "editor.defaultFormatter": "svipas.prettier-plus"
+    }
+}
