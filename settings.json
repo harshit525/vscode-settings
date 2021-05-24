@@ -25,6 +25,7 @@
     "editor.formatOnSave": true,
     "prettier.bracketSpacing": true,
     "prettier.tabWidth": 4,
+    "prettier.printWidth": 160,
     "editor.fontFamily": "Victor Mono, Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.fontWeight": "500",
